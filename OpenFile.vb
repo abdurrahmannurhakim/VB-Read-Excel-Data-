@@ -1,4 +1,13 @@
-﻿
+
+
+'============================================================================
+' Name        : OpenFile.vb
+' Author      : Abdurrahman Nurhakim
+' Version     : 1.0
+' Copyright   : Your copyright notice
+' Description : Read Data from Excel 
+'============================================================================
+
 Imports Modbus.Device
 Imports Microsoft.Office.Interop
 Imports Microsoft.Office.Interop.Excel
