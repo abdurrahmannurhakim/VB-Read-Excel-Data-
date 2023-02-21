@@ -70,7 +70,7 @@ Public Class Form1
 
     Public Sub ReadUnitSensorSP(Input As String, CollomNumb As Integer)
         Dim Hasil As Boolean
-        Dim Sbuff As String = "qwertyuiopasdfghasdfghjk" 'BUFF SUPAYA TIDAK ERROR
+        Dim Sbuff As String = "qwertyuiopasdfghasdfghjk"
         Dim myChar As Char() = (Input + Sbuff).ToCharArray()
         Dim Buff As String
         Dim size As Integer = Len(Input)
@@ -87,7 +87,7 @@ Public Class Form1
 
     Public Sub ReadUnitSensorRTD(Input As String, CollomNumb As Integer)
         Dim Hasil As Boolean
-        Dim Sbuff As String = "qwertyuiopasdfghasdfghjk" 'BUFF SUPAYA TIDAK ERROR
+        Dim Sbuff As String = "qwertyuiopasdfghasdfghjk" 
         Dim myChar As Char() = (Input + Sbuff).ToCharArray()
         Dim Buff As String
         Dim size As Integer = Len(Input)
@@ -105,7 +105,7 @@ Public Class Form1
 
     Public Sub ReadUnitSensorDP(Input As String, CollomNumb As Integer)
         Dim Hasil As Boolean
-        Dim Sbuff As String = "qwertyuiopasdfghasdfghjk" 'BUFF SUPAYA TIDAK ERROR
+        Dim Sbuff As String = "qwertyuiopasdfghasdfghjk"
         Dim myChar As Char() = (Input + Sbuff).ToCharArray()
         Dim Buff As String
         Dim size As Integer = Len(Input)
@@ -121,8 +121,6 @@ Public Class Form1
     End Sub
 
 
-
-    'INI PAKE CHAT GPT YA, WKWKW' 'Tambahan 2023'
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         row = 0
         collom = 0
